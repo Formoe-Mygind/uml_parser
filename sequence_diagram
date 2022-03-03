@@ -1,15 +1,19 @@
 @startuml
 mainframe sd SimpleThermostat
+participant pony
 participant "psm:PSM" as psm
 participant "pim:PIM" as pim
 
 pim <-] : add_thermometer(id1, txt1)
-pim-> psm: add_thermometer(id1, txt1)
+pim -> psm: add_thermometer(id1, txt1)
+psm <- pim: add_thermo
 pim <-] : add_device(didid1, didtxt1)
-pim-> psm: add_device(didid1, didtxt1)
+pim -> psm: add_device(didid1, didtxt1)
 
 pim <-] : add_temperature(temp1)
 pim ->] : prompt("Now entering thermostat")
+[-> pim : prompt("Now entering thermostat")
+pim ->[: prompt("Now entering thermostat")
 
 loop
   psm -> pim: temperature(id1, txt1, temp2)

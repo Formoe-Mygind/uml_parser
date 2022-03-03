@@ -62,7 +62,7 @@ def mapping(data):
                  state_machine.append([keys, new_dict[key], rx_keys[keys]])
                  #print(rx_keys[keys])
 
-    print(state_machine)
+    #print(state_machine)
     for element in state_machine:
         if "PARTICIPANT" in element:
             try:
@@ -72,6 +72,7 @@ def mapping(data):
                 continue
             finally:
                 for elements in state_machine:
+                    print(elements)
                     if "PARTICIPANT" not in elements:
                         f = open(str(element[2]) + "_behavior", "a")
                         f.write(elements[1]+elements[2]+"\n")

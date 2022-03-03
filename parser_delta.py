@@ -1,4 +1,5 @@
 import re
+from ast import literal_eval
 #installer pyCharm plantUML modul
 rx_dict = {
     'mainframe': re.compile(r"mainframe\s*(?P<mainframe>.*)"),
@@ -21,25 +22,36 @@ def _parse_line(line):
         if match:
             return key, match
     return None, None
-
+zeLines = []
 def parse_file(filepath):
     data = []
+
     with open(filepath, 'r') as file_object:
         line = file_object.readline()
+
         while line:
+            if line != "\n":
+                line.lower()
+
+                line = line[:-1]
+
+                zeLines.append(line)
             key, match = _parse_line(line)
-            #print(match)
+
 
             def structure(group_key, gr_name):
                 if key == str(gr_name):
                     group_key = match.group(str(gr_name))
                     row = {str(gr_name).upper(): group_key}
-                    data.append(row)
 
-            for gr_name,_ in rx_dict.items():
+                    data.append(row)
+                    #print(row)
+
+            for gr_name, _ in rx_dict.items():
                 structure(key, gr_name)
 
             line = file_object.readline()
+    #print(f"DATA!\n{data}\n")
 
     return data
 
@@ -58,17 +70,18 @@ def mapping(data):
 
 
     state_machine = []
+    #print(f"{new_dict}\n")
     for key in new_dict:
-        #print(keys)
-        #print(new_dict[keys])
+        #print(f"KEY!\t{key}")
         for rx_keys in data:
-            #print(rx_keys)
+            #print(f"rxKEY!\t{rx_keys}")
             for keys in rx_keys:
+                #print(f"Key Key!\t{keys}")
                 if key == keys:
                  state_machine.append([keys, new_dict[key], rx_keys[keys]])
                  #print(rx_keys[keys])
 
-    print(state_machine)
+
     for element in state_machine:
         if "PARTICIPANT" in element:
             try:
@@ -104,4 +117,39 @@ if __name__ == '__main__':
     filepath = 'sequence_diagram'
     data = parse_file(filepath)
     mapping(data)
-    #print(data)
+
+    sequence_list = ['->', '<-', '-->', '<--', '[->', '<-]']
+    participant_list = ['participant', 'actor', 'boundry', 'control', 'entitiy', 'database', 'queue']
+
+
+    matchlist, participants, commands, comments = [], [], [], []
+
+    print(zeLines)
+
+    for lines in zeLines:
+        matchlist.append(lines.split())
+
+    print(len(matchlist))
+    for number, entry in enumerate(matchlist):
+
+        entry_str = str(entry)
+        en_cp = entry_str
+        entry_str = entry_str.replace("\', \'", " ")
+
+        # ADD PARTICIPANTS
+        if (len(entry) > 2) and (entry[0] in participant_list): participants.append(entry[3])
+        if (len(entry) == 2) and (entry[0] in participant_list): participants.append(entry[1])
+
+        # ADD COMMANDS
+        if "(" in entry_str:
+
+            entry_str = entry_str.replace("\']", "")
+            entry_new_array = entry_str.split(": ")
+            commands.append([number, entry_new_array[1]])
+
+    for line_number, command in commands:
+        print(line_number, command)
+    print(participants)
+    for d in sequence_list:
+        print(d)
+

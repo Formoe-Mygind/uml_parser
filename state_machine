@@ -4,7 +4,7 @@ skinparam defaultTextAlignment left
 state PIM_behavior ##[bold]brown {
 [*] ---> AddThermo
 AddThermo ---> Setup
-Setup -> Setup
+Setup --> Setup: GAY!\nGAY!\nGAY!
 Setup -> Setup
 Setup --> Thermostat
 Thermostat -> Thermostat
