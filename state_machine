@@ -1,0 +1,15 @@
+@startuml
+skinparam defaultTextAlignment left
+[*] --> PIM_behavior
+state PIM_behavior ##[bold]brown {
+[*] ---> AddThermo
+AddThermo ---> Setup
+Setup -> Setup
+Setup -> Setup
+Setup --> Thermostat
+Thermostat -> Thermostat
+Thermostat --> On
+On --> Off
+Off -[#red,bold]-> Thermostat
+}
+@enduml
