@@ -2513,3 +2513,6975 @@ add_device --> add_temperature
 Thermostat --> Thermostat
 }
 @enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+[*] ---> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+{prev_state} --> {next_state}SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
+@startuml
+skinparam defaultTextAlignment left
+[*] ---> 
+[*] --> psm_behavior
+state psm_behavior ##[bold]brown{
+ --> add_thermometer
+add_thermometer --> add_device
+add_device --> add_temperature
+add_temperature --> SwitchOn
+{prev_state} --> {next_state}SwitchOff
+Thermostat --> Thermostat
+}
+@enduml
