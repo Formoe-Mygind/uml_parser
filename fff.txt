@@ -1,0 +1,54 @@
+@startuml
+mainframe sd SimpleThermostat
+participant mumbo #FF5500
+participant "psm:PSM" as psm #99FF00
+participant  "pim:PIM" as pim #90F0FF
+
+[-> mumbo: dance(theNight)
+note over mumbo #FF5500:
+
+mumbo -> psm : hello(looking_for)
+note over mumbo, psm #99FF00:
+
+pim <-] : add_thermometer(id, txt)
+note over pim #FF9911:
+
+pim -> psm: add_thermometer(id, txt)
+note over pim, psm #F9FF21:
+
+pim <-] : add_device(did, txt)
+note over pim #90F0FF:
+
+pim -> psm: add_device(did, txt)
+note over pim, psm #9909e0:
+
+pim <-] : add_temperature(temp1)
+note over pim #90F0FF:
+pim ->] : prompt("Now entering thermostat")
+note over pim #90F0FF:
+loop
+|||
+  psm -> pim: temperature(id, txt, temp2)
+  note over psm, pim #90F0FF:
+  alt
+  |||
+      else temp2<temp1-1
+        pim -> psm: SwitchOn(did)
+        note over pim, psm #E4BBEE:
+      else temp2>=temp1+1
+
+        pim -> psm: SwitchOff(did)
+        note over pim, psm #99FF00:
+  end
+end
+pim <-]: SwitchOn(did)
+note over pim #90F0FF:
+
+pim -> psm: SwitchOn(did)
+note over pim, psm #99FF00:
+pim <-]: SwitchOff(did)
+note over pim #90F0FF:
+
+pim -> psm: SwitchOff(did)
+note over pim, psm #99FF00:
+@enduml

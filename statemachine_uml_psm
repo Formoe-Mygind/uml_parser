@@ -1,0 +1,17 @@
+@startuml
+[*] --> psm
+state psm{
+[*] --> add_thermometer: (id, txt)
+add_thermometer --> add_thermometer: (id, txt)
+add_thermometer --> add_device: (did, txt)
+add_device --> add_device: (did, txt)
+add_device --> add_temperature: (temp1)
+add_temperature --> temperature: (id, txt, temp2)
+temperature --> SwitchOn: (did)
+SwitchOn --> SwitchOff: (did)
+SwitchOff --> SwitchOn: (did)
+SwitchOn --> SwitchOn: (did)
+SwitchOn --> SwitchOff: (did)
+SwitchOff --> SwitchOff: (did)
+}
+@enduml
