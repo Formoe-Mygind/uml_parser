@@ -1,17 +1,6 @@
 import random
 import re
 from ast import literal_eval
-from random import randint as rint
-def color_pick():
-    random_temp_list = {1: "A", 2: "B", 3: "C", 4: "D", 5: "E", 6: "F"}
-    random_color = f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0,9)}"
-    random_color += f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0, 9)}"
-    random_color += f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0, 9)}"
-
-    return f"#{random_color}"
 
 
 #installer pyCharm plantUML modul
@@ -193,7 +182,7 @@ def big_boy(zeLines):
         statemachine = ""
         statemachine += "@startuml\n"
         statemachine += f"[*] --> {state_participant[1]}\n"
-        statemachine += f"state {state_participant[1]} {color_pick()}{{\n"
+        statemachine += f"state {state_participant[1]}{{\n"
         last_state = ""
         print(state_participant)
 #        print(f"{sequences}\n")
@@ -214,10 +203,10 @@ def big_boy(zeLines):
                     print(ext, ext2)
 
                     if last_state == "":
-                        statemachine += f"[*] --> {ext[1]} {color_pick()}: {ext2[0]}\n"
+                        statemachine += f"[*] --> {ext[1]}: {ext2[0]}\n"
                         last_state = str(ext[1])
                     else:
-                        statemachine += f"{last_state} --> {ext[1]} {color_pick()}: {ext2[0]}\n"
+                        statemachine += f"{last_state} --> {ext[1]}: {ext2[0]}\n"
                         last_state = str(ext[1])
 
         statemachine += "}\n"
