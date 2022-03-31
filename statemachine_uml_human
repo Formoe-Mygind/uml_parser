@@ -1,0 +1,16 @@
+@startuml
+[*] --> human
+state human #D997F2{
+[*] --> add_thermometer #F2C5F9: (1,"t")
+add_thermometer --> add_device #E4E893: (1)
+add_device --> set_temperature #F498A9: (20.0)
+set_temperature --> SwitchOn #95C0D9: (1)
+SwitchOn --> SwitchOff #E790F2: (1)
+SwitchOff --> SwitchOn #D8F1F7: (1)
+SwitchOn --> SwitchOn #C7E7E3: (1)
+SwitchOn --> SwitchOff #F49597: (1)
+SwitchOff --> SwitchOff #94A791: (1)
+SwitchOff --> show_current_power #E9D5E1: (1)
+show_current_power --> show_total_energy #A4D095: (1)
+}
+@enduml

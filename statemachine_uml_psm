@@ -1,17 +1,16 @@
 @startuml
 [*] --> psm
-state psm{
-[*] --> add_thermometer: (id, txt)
-add_thermometer --> add_thermometer: (id, txt)
-add_thermometer --> add_device: (did, txt)
-add_device --> add_device: (did, txt)
-add_device --> add_temperature: (temp1)
-add_temperature --> temperature: (id, txt, temp2)
-temperature --> SwitchOn: (did)
-SwitchOn --> SwitchOff: (did)
-SwitchOff --> SwitchOn: (did)
-SwitchOn --> SwitchOn: (did)
-SwitchOn --> SwitchOff: (did)
-SwitchOff --> SwitchOff: (did)
+state psm #C7A0A5{
+[*] --> add_thermometer #92D6A9: (1,"t")
+add_thermometer --> add_device #D793D5: (1)
+add_device --> set_temperature #B5C7D6: (20.0)
+set_temperature --> SwitchOn #C0B4F8: (1)
+SwitchOn --> SwitchOff #E7D394: (1)
+SwitchOff --> SwitchOn #E3C8C3: (1)
+SwitchOn --> SwitchOn #F897B6: (1)
+SwitchOn --> SwitchOff #E1C8D7: (1)
+SwitchOff --> SwitchOff #A3A9A3: (1)
+SwitchOff --> show_current_power #95D995: (1)
+show_current_power --> show_total_energy #C1D7D5: (1)
 }
 @enduml
