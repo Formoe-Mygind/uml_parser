@@ -6,16 +6,6 @@ from random import randint
 
 def color_pick():
 
-    """
-    random_temp_list = {1: "A", 2: "B", 3: "C", 4: "D", 5: "E", 6: "F"}
-    random_color = f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0,9)}"
-    random_color += f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0, 9)}"
-    random_color += f"{random_temp_list[rint(1,6)]}"
-    random_color += f"{rint(0, 9)}"
-    """
-
     hex_digits = "0123456789ABCDEF"
     random_color = "#"
     for i in range(6):
@@ -40,13 +30,14 @@ def parse_file(filepath):
 
     return document_data
 
+
 def sequence_parser(document):
     loop_count, alt_count, end_count = [], [], []
     for lines in document:
-        match_list.append(lines.split())
+        seq_match_list.append(lines.split())
 
 
-    for number, entry in enumerate(match_list):
+    for number, entry in enumerate(seq_match_list):
 
         entry_str = str(entry)
         entry_str = entry_str.replace("\', \'", " ")
@@ -69,7 +60,7 @@ def sequence_parser(document):
             entry_new_array = entry_str.split(": ")
             print(entry_str)
 
-            commands.append([number+1, entry_new_array[1]])
+            seq_commands.append([number+1, entry_new_array[1]])
 
         for arrow in sequence_list:
 
@@ -81,7 +72,7 @@ def sequence_parser(document):
         print(f"{line_number}\t\t{drunks}")
 
     print("\nLine\tCommands:".upper())
-    for line_number, command in commands:
+    for line_number, command in seq_commands:
        print(f"{line_number}\t\t{command}")
 
     print("\nLine\tSequence:".upper())
@@ -114,7 +105,7 @@ def sequence_parser(document):
 #        print(f"{sequences}\n")
         for sequence_to_state in sequences:
 
-            for state_command in commands:
+            for state_command in seq_commands:
 
                 if sequence_to_state[0] == state_command[0]:
 
@@ -138,12 +129,12 @@ def sequence_parser(document):
 
 if __name__ == '__main__':
 
-    filepath = 'ob2'
-    data = parse_file(filepath)
+    seq_filepath = 'ob2'
+    seq_data = parse_file(seq_filepath)
 
     sequence_list = ['->', '<-', '-->', '<--', '\[->', '<-\]']
     world_sequence = ['\[->', '<-\]']
     participant_list = ['participant', 'actor', 'boundry', 'control', 'entitiy', 'database', 'queue']
 
-    match_list, participants, commands, comments, sequences = [], [], [], [], []
-    sequence_parser(data)
+    seq_match_list, participants, seq_commands, state_comments, sequences = [], [], [], [], []
+    sequence_parser(seq_data)

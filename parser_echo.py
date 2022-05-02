@@ -62,7 +62,7 @@ def mapping(data):
                  state_machine.append([keys, new_dict[key], rx_keys[keys]])
                  #print(rx_keys[keys])
 
-    #print(state_machine)
+    #print(example_state_machine)
     for element in state_machine:
         if "PARTICIPANT" in element:
             try:
@@ -89,6 +89,6 @@ def mapping(data):
 
 
 if __name__ == '__main__':
-    filepath = 'sequence_diagram'
+    filepath = 'example_sequence_diagram'
     data = parse_file(filepath)
     mapping(data)

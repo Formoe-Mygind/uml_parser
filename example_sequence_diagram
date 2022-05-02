@@ -1,0 +1,15 @@
+@startuml
+mainframe sd SimpleThermostat
+participant "psm:PSM" as psm
+participant "pim:PIM" as pim
+pim <-] : add_thermometer(id, txt)
+pim -> psm: add_thermometer(id, txt)
+pim <-] : add_device(did, txt)
+pim -> psm: add_device(did, txt)
+pim <-] : add_temperature(temp1)
+pim ->] : prompt("Now entering thermostat")
+pim <-]: SwitchOn(did)
+pim -> psm: SwitchOn(did)
+pim <-]: SwitchOff(did)
+pim -> psm: SwitchOff(did)
+@enduml
