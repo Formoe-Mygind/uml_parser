@@ -1,35 +1,3 @@
 *** MATCH ***
-STATE	       8	add_thermometer
-SEQ		       5	['pim', '<-]', ':', 'add_thermometer(id,', 'txt)']
-
-STATE	       8	add_thermometer
-SEQ		       6	['pim', '->', 'psm:', 'add_thermometer(id,', 'txt)']
-
-STATE	      11	add_device
-SEQ		       7	['pim', '<-]', ':', 'add_device(did,', 'txt)']
-
-STATE	      11	add_device
-SEQ		       8	['pim', '->', 'psm:', 'add_device(did,', 'txt)']
-
-STATE	      17	  SwitchOn
-SEQ		      11	['pim', '<-]:', 'SwitchOn(did)']
-
-STATE	      17	  SwitchOn
-SEQ		      12	['pim', '->', 'psm:', 'SwitchOn(did)']
-
-STATE	      20	 SwitchOff
-SEQ		      13	['pim', '<-]:', 'SwitchOff(did)']
-
-STATE	      20	 SwitchOff
-SEQ		      14	['pim', '->', 'psm:', 'SwitchOff(did)']
-
 *** POSSIBLE MATCH ***
-STATE	      12	temperature
-SEQ		       9	['pim', '<-]', ':', 'add_temperature(temp1)']
-
-STATE	      16	temperature
-SEQ		       9	['pim', '<-]', ':', 'add_temperature(temp1)']
-
 *** NO MATCH ***
-SEQ		      13	set_temperature
-SEQ		      23	set_temperature

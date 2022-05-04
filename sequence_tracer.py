@@ -38,14 +38,11 @@ def sequence_tracer(document):
                     continue
 
                 if "<" in traced_sequence:
+                    print(traced_sequence)
+                    print(value[2].strip(":"), value[0])
                     transitions[key] = [value[2].strip(":"), value[0]]
 
                 if ">" in traced_sequence:
                     transitions[key] = [value[0], value[2].strip(":")]
 
-
-    for key, value in transitions.items():
-        print(key, value)
-
-
-    return document_dict, life_line
+    return document_dict, life_line, transitions

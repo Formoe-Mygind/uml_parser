@@ -2,14 +2,22 @@
 mainframe sd SimpleThermostat
 participant "psm:PSM" as psm
 participant "pim:PIM" as pim
+note over pim #44ff22: TRIGGER
 pim <-] : add_thermometer(id, txt)
+note over pim #44ff22: EFFECT
 pim -> psm: add_thermometer(id, txt)
+note over pim #FF3322: TRIGGER
 pim <-] : add_device(did, txt)
+note over pim #FF3322: EFFECT
 pim -> psm: add_device(did, txt)
-pim <-] : add_temperature(temp1)
+pim <-] : set_temperature(temp1)
 pim ->] : prompt("Now entering thermostat")
+note over pim #99EEFF: TRIGGER
 pim <-]: SwitchOn(did)
+note over pim #99EEFF: EFFECT
 pim -> psm: SwitchOn(did)
+note over pim #EEBEFF: TRIGGER
 pim <-]: SwitchOff(did)
+note over pim #EEBEFF: EFFECT
 pim -> psm: SwitchOff(did)
 @enduml
