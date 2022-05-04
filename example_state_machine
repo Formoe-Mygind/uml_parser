@@ -3,11 +3,11 @@ skinparam defaultTextAlignment left
 caption Behavior of thing PIM
 [*] --> PIM_behavior
 state PIM_behavior{
-state AddThermo#44ff22{
+state AddThermo{
 AddThermo : entry / do\nprint ("Running The Room X2.sim")\nend\n
 AddThermo --> Setup : addt:human_input?add_thermometer\naction do\nthermo_id = addt.id\nrequest_sensor!add_thermometer(thermo_id, addt.txt)\nend\n
 }
-state Setup #FF3322{
+state Setup{
 Setup --> Setup : adddev:human_input?add_device\naction do\nswitch_id = adddev.did\nrequest_actuator!add_device(switch_id)\nend\n
 Setup --> Setup : get_sensor?temperature\naction do\nend\n
 Setup --> Thermostat : set_temp:human_input?set_temperature\naction do\ntmrature = set_temp.t\nhuman_output!prompt("Now entering thermostat. Please give temperature measurements")\nend\n
@@ -16,10 +16,10 @@ state Thermostat {
 Thermostat --> Thermostat : temp:get_sensor?temperature\naction do\nif (temp.t < tmrature - 1) do\nrequest_actuator!SwitchOn(switch_id)\nend\nif (temp.t > tmrature + 1) do\nrequest_actuator!SwitchOff(switch_id)\nend\nend\n
 Thermostat --> On : swon:human_input?SwitchOn\naction do\nrequest_actuator!SwitchOn(swon.did)\nend\n
 }
-state On #99EEFF{
+state On {
 On --> Off : swoff:human_input?SwitchOff\naction do\nrequest_actuator!SwitchOff(swoff.did)\nend\n
 }
-state Off #EEBEFF{
+state Off {
 Off --> Thermostat : set_temp:human_input?set_temperature\naction do\ntmrature = set_temp.t\nend\n
 }
 [*] --> AddThermo
