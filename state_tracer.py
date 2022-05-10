@@ -12,6 +12,9 @@ def state_tracer(document):
         n += 1
         document_dict[n] = lines.split()
         full_document += lines
+
+        # INDEXES STATES AND THEIR CORRESPONDING LINES
+        # DEFINED IN THE PlantUML STATE MACHINE DIAGRAM
         state_start_search = re.search(r"(?:state)?.*{", lines)
         state_end_search = re.search("}", lines)
 
@@ -25,6 +28,7 @@ def state_tracer(document):
             current_state.pop()
             continue
 
+    # SORTS THE STATES IN ORDER OF APPEARANCE
     state_lines.sort(key=lambda state: state[1])
 
     for entry in state_lines:
