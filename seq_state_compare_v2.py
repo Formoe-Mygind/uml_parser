@@ -1,11 +1,12 @@
 import re
+from plantweb.render import render_file
 from random import randint
 import state_tracer
 import sequence_tracer as sequence
 
 
 EXTAB = 8  # Makes the print to terminal a bit prettier
-# FILEPATHS ARE HARDCODED FOR DEMO PURPOSES.
+
 
 
 def color_pick():
@@ -39,13 +40,12 @@ def parse_file(filepath):
 
 if __name__ == '__main__':
 
+    # FILEPATHS ARE HARDCODED FOR DEMO PURPOSES.
     state_filepath = 'example_state_machine'
-    #state_filepath = 'generated_statemachine.plantuml'
     sequence_filepath = 'example_sequence_diagram'
 
     state_data = parse_file(state_filepath)
     sequence_data = parse_file(sequence_filepath)
-
 
     def main_parse():
 
@@ -254,5 +254,33 @@ if __name__ == '__main__':
 
         with open("generated_statemachine.plantuml", "w") as generated_stat:
             generated_stat.write(state_text)
+
+        def save_png(uml_source, uml_type):
+
+            infile = f'{uml_type}.dot'
+            with open(infile, 'wb') as fd:
+                fd.write(uml_source.encode('utf-8'))
+
+            print('==> INPUT FILE:')
+            print(infile)
+
+            outfile = render_file(
+                infile,
+                renderopts={
+                    'engine': 'plantuml',
+                    'format': 'png'
+                },
+                cacheopts={
+                    'use_cache': False
+                }
+            )
+
+            print('==> OUTPUT FILE:')
+            print(outfile)
+        try:
+            save_png(state_text, f"{life_line}_state")
+            save_png(sequence_test, f"{life_line}_sequence")
+        except Exception as e:
+            print(e)
 
     main_parse()
