@@ -1,7 +1,7 @@
 import re
 
 
-def state_tracer(document):
+def state_tracer(document, type_of_trace):
     full_document = ""
     document_dict = {}
     states, state_trigger, state_effect = {}, {}, {}
@@ -51,5 +51,7 @@ def state_tracer(document):
 
         if effect_search is not None:
             state_effect[key] = effect_search[0]
-
-    return states, state_trigger, state_effect, state_lines_dict
+    if type_of_trace:
+        return states, state_trigger, state_effect, state_lines_dict
+    else:
+        return state_trigger
