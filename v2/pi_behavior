@@ -1,7 +1,0 @@
-[*] --> pi_behavior
-state pi_behavior ##[bold]brown{
-{prev_state} --> {next_state}add_thermometer
-[*] ---> add_device
-{prev_state} --> {next_state}add_temperature
-{prev_state} --> {next_state}SwitchOn
-{prev_state} --> {next_state}SwitchOff
