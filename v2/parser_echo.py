@@ -89,6 +89,6 @@ def mapping(data):
 
 
 if __name__ == '__main__':
-    filepath = 'example_sequence_diagram'
+    filepath = '../example_sequence_diagram'
     data = parse_file(filepath)
     mapping(data)

@@ -222,7 +222,7 @@ def seq_state_compare(document, seq_event):
 
 if __name__ == '__main__':
 
-    state_filepath = 'example_state_machine'
+    state_filepath = '../example_state_machine'
     state_data = parse_file(state_filepath)
 
 
@@ -231,7 +231,7 @@ if __name__ == '__main__':
 
     state_match_list, states, state_events, state_comments, transitions = [], [], [], [], []
 
-    seq_filepath = 'example_sequence_diagram'
+    seq_filepath = '../example_sequence_diagram'
     seq_data = parse_file(seq_filepath)
 
     sequence_list = ['->', '<-', '-->', '<--', '\[->', '<-\]']

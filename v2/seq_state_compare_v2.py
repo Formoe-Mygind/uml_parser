@@ -1,13 +1,11 @@
 import re
 from plantweb.render import render_file
 from random import randint
-import state_tracer
-import sequence_tracer as sequence
+import state_tracer as state
+import sequence_tracer as seq
 
 
 EXTAB = 8  # Makes the print to terminal a bit prettier
-
-
 
 def color_pick():
 
@@ -41,16 +39,20 @@ def parse_file(filepath):
 if __name__ == '__main__':
 
     # FILEPATHS ARE HARDCODED FOR DEMO PURPOSES.
-    state_filepath = 'example_state_machine'
-    sequence_filepath = 'example_sequence_diagram'
+    state_filepath = '../example_state_machine'
+    sequence_filepath = '../example_sequence_diagram'
 
     state_data = parse_file(state_filepath)
     sequence_data = parse_file(sequence_filepath)
 
+    states, state_trigger, state_effect, state_lines_index = state.state_tracer(state_data, True)
+    sequence_dict, life_line, transitions, seq_trig_effect = seq.sequence_tracer(sequence_data)
+
+
     def main_parse():
 
-        states, state_trigger, state_effect, state_lines_index = state_tracer.state_tracer(state_data, True)
-        sequence_dict, life_line, transitions, seq_trig_effect = sequence.sequence_tracer(sequence_data)
+        states, state_trigger, state_effect, state_lines_index = state.state_tracer(state_data, True)
+        sequence_dict, life_line, transitions, seq_trig_effect = seq.sequence_tracer(sequence_data)
 
 
         # PRINTS INFO ABOUT TRIGGERS, EFFECTS, LIFE LIFES AND TRANSITIONS TO TERMINAL.
@@ -197,8 +199,8 @@ if __name__ == '__main__':
                         replacement = found_sequence[user_correction - 1]
 
                         print(replacement)
-                        for num, entry in enumerate(state_data):
-                            state_data[num] = state_data[num].replace(f"{trigger[1:]}", replacement)
+                        for num, entry in enumerate(sequence_data):
+                            sequence_data[num] = state_data[num].replace(f"{trigger[1:]}", replacement)
                         found_triggers.append(replacement)
                         state_trigger = state_tracer.state_tracer(state_data, False)
                         life_line_check(life_line, state_trigger)
@@ -261,9 +263,6 @@ if __name__ == '__main__':
             with open(infile, 'wb') as fd:
                 fd.write(uml_source.encode('utf-8'))
 
-            print('==> INPUT FILE:')
-            print(infile)
-
             outfile = render_file(
                 infile,
                 renderopts={
@@ -275,12 +274,10 @@ if __name__ == '__main__':
                 }
             )
 
-            print('==> OUTPUT FILE:')
-            print(outfile)
         try:
             save_png(state_text, f"{life_line}_state")
             save_png(sequence_test, f"{life_line}_sequence")
         except Exception as e:
             print(e)
 
-    main_parse()
+    #main_parse()

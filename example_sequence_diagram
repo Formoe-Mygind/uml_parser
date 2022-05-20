@@ -8,6 +8,17 @@ pim <-] : add_device(did, txt)
 pim -> psm: add_device(did, txt)
 pim <-] : add_temperature(temp1)
 pim ->] : prompt("Now entering thermostat")
+loop
+|||
+  psm -> pim: temperature(id, txt, temp2)
+  alt
+  |||
+      else temp2<temp1-1
+        pim -> psm: SwitchOn(did)
+      else temp2>=temp1+1
+        pim -> psm: SwitchOff(did)
+  end
+end
 pim <-]: SwitchOn(did)
 pim -> psm: SwitchOn(did)
 pim <-]: SwitchOff(did)
